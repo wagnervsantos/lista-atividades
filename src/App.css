@@ -1,0 +1,102 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+  color: #333;
+  background-image: url(./img/jeremy-bishop-B2Q7UC6QGLE-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#app{
+  max-width: 600px;
+  margin: 0 auto 200px;
+  background-color: #3c58f7;
+  padding: 20px 35px;
+  border-radius: 15px;
+}
+h1{
+  text-align: center;
+  color: #ffffff;
+}
+h2{
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+p {
+  margin: 20px 0;
+  color: #ffffff;
+}
+input {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 7px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+button:hover{
+  opacity: 1;
+}
+#todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #292929;
+}
+#todo{
+  background-color: #0b26be;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.todo
+#complete{
+  background-color: #0b0c0b;
+  color: #ffffff;
+}
+#remove{
+  background-color: #f70404;
+}
+.todo-form {
+  padding-bottom: 1.5rem;
+}
+
+input, 
+select{
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#filter, 
+#search{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #292929;
+}
+
+#filter-options{
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+#filter-options div{
+  flex: 1 1 0;
+}
